@@ -1,0 +1,12 @@
+var myString;
+var myNum;
+var b = true;
+myString = "Hello World";
+myNum = 123;
+console.log(myString);
+console.log(myNum);
+console.log(b);
+var strArr;
+var sArr;
+strArr = ["apple", "computer", "university"];
+console.log(strArr);
