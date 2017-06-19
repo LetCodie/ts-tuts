@@ -33,6 +33,6 @@ var Member = (function (_super) {
     return Member;
 }(User));
 //let radin = new User( 'radin', 'radin@gmail.com', 27 );
-var romdual = new Member(1, 'romdual', 'romdual@romchong.com', 21);
+var romdual = new Member(1, 'romdual_', 'romdual@romchong.com', 21);
 console.log(romdual.id);
 console.log(romdual.getInvoice());

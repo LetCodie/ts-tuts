@@ -1,4 +1,11 @@
-class User {
+interface UserInterface {
+    name: string,
+    email: string,
+    age: number,
+    getInvoice(): string
+}
+
+class User implements UserInterface {
   name: string;
   email: string;
   age: number;
@@ -30,6 +37,6 @@ class Member extends User {
 }
 
 //let radin = new User( 'radin', 'radin@gmail.com', 27 );
-let romdual = new Member(1, 'romdual', 'romdual@romchong.com', 21);
+let romdual = new Member(1, 'romdual_', 'romdual@romchong.com', 21);
 console.log( romdual.id );
 console.log( romdual.getInvoice() );
